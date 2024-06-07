@@ -29,7 +29,7 @@ namespace first_product_lab1
             tabControl1.ItemSize = new Size(50, 30);
             NewTabButton.Location = new Point(88, 15);
 
-            string path = "C:\\Users\\Anton\\source\\repos\\first_product_lab1\\first_product_lab1\\MainFormData.txt";
+            string path = @"..\..\MainFormData.txt";
 
             StreamReader reader = new StreamReader(path);
 
